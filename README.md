@@ -7,13 +7,7 @@ sample.csv:	Training sample file which should be used to build linear model
 test1.csv:	Test dataset1 with linearly separable samples for which we need to predict classes
 test2.csv   Test dataset2 with non-linearly separable samples for which we need to predict classes
 			
-How to run the single logistic regressor:
-1. Make sure that all porgram and date files are in same folder 
-2. Run logreg.py python program by giving sample.csv as command line argument - Usage: python logreg.py samplefile
-3. Program will run 'test1.csv' file by default. To make it run for test2.csv file, please update 107th line with test2.csv name instead of test1.csv
-4. A graph will be plotted which shows spcific epoc vs sum of squared error for samples in each epoc
-5. Please close the plot window, so that next plot of decision boundary can be plotted.
-6. Decision boundary plot will be plotted with required results in console
+How to run the single logistic regressor: 1. Make sure that all porgram and date files are in same folder 2. Run logreg.py python program by giving sample.csv as command line argument - Usage: python logreg.py samplefile 3. Program will run 'test1.csv' file by default. To make it run for test2.csv file, please update 107th line with test2.csv name instead of test1.csv 4. A graph will be plotted which shows spcific epoc vs sum of squared error for samples in each epoc 5. Please close the plot window, so that next plot of decision boundary can be plotted. 6. Decision boundary plot will be plotted with required results in console
 
 Interpretations:
 	1. First graph of epoc vs sqaured error for samples in each epoc tells us the error is getting reduced as we are updating weights per line per epoc.
